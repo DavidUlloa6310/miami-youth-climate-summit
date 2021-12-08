@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 
 import Button from "../shared/Button";
 
-import styles from "../../styles/Index/GrassSection.module.css";
+import styles from "../../styles/index/GrassSection.module.css";
 
 function GrassSection(props) {
   return (
