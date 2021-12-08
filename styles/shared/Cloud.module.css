@@ -1,0 +1,18 @@
+.image-div {
+  position: relative;
+  margin: 10px;
+}
+
+.image-text {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 150px;
+  margin-top: 20px;
+}

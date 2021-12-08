@@ -1,0 +1,28 @@
+.learn-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.learn-section h1,
+.learn-section h2 {
+  color: white;
+  text-align: center;
+}
+
+.learn-section h1 {
+  font-size: 5em;
+}
+
+.learn-section h2 {
+  font-size: 2.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: white;
+
+  border-radius: 0 0 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.img-div {
+  height: 200px;
+  width: 200px;
+}
+
+.links h2 {
+  text-align: center;
+}
+
+.navbar h2 {
+  text-decoration: underline;
+}
+
+.burger {
+  display: none;
+
+  width: 50px;
+  margin: auto;
+}
+
+.burger-line {
+  display: none;
+
+  min-width: 40px;
+  min-height: 5px;
+  background-color: black;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar h2 {
+    display: none;
+  }
+
+  .navbar .burger {
+    display: block;
+  }
+
+  .burger,
+  .burger-line {
+    display: block;
+  }
+
+  .navbar {
+    left: 100%;
+    width: 75px;
+  }
+}

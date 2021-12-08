@@ -1,0 +1,30 @@
+.grass-section {
+  min-height: 30vh;
+  background-color: #88d062;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.text {
+  width: 100%;
+  min-height: 30vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h3,
+.text p,
+.text div {
+  padding: 10px;
+}

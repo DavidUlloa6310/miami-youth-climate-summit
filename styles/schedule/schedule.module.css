@@ -1,0 +1,12 @@
+.schedule-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+}
+.schedule-section p {
+  font-size: 2em;
+  color: white;
+}

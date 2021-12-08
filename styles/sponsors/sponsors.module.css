@@ -1,0 +1,47 @@
+.sponsors-section {
+  min-height: 90vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sponsors-section h1 {
+  font-size: 5em;
+}
+
+.sponsors-section h2 {
+  font-size: 3em;
+}
+
+.sponsors-section p {
+  font-size: 1.5em;
+}
+
+.sponsors-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.sponsors-div > * {
+  margin: 20px;
+}
+
+.image-div {
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .sponsors-div {
+    width: 100%;
+  }
+
+  .image-div {
+    width: 30%;
+  }
+}
