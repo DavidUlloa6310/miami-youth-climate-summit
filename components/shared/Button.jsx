@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../../styles/Shared/Button.module.css";
+import styles from "../../styles/shared/Button.module.css";
 
 function Button(props) {
   return (
