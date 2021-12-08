@@ -4,7 +4,7 @@ import Image from "next/image";
 import climateSummitLogo from "../../images/index/youth-climate-summit.png";
 import cloud from "../../images/shared/cloud.svg";
 
-import styles from "../../styles/Index/SkySection.module.css";
+import styles from "../../styles/index/SkySection.module.css";
 
 function SkySection(props) {
   return (
