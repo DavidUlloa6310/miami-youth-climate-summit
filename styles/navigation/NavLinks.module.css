@@ -1,3 +1,36 @@
 .navLink {
   cursor: pointer;
 }
+
+.drop-down {
+  position: relative;
+}
+
+.drop-down h2 {
+  text-align: center;
+}
+
+.drop-down:hover > ul {
+  display: block;
+}
+
+.show > ul {
+  display: block;
+}
+
+.drop-down-list {
+  display: none;
+  position: absolute;
+  top: 110%;
+  width: 200%;
+  list-style: none;
+  background-color: white;
+  border-radius: 0 0 16px 16px;
+  padding: 5px;
+}
+
+.drop-down-list > * {
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}

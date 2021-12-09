@@ -8,7 +8,7 @@ function TheScience(props) {
   }, []);
 
   return (
-    <main>
+    <main className={styles["main"]}>
       <h1 className={styles["title"]}>The Science</h1>
       <div className={styles["columns"]}>
         <div className={styles["column"]}>

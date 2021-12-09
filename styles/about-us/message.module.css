@@ -1,0 +1,46 @@
+.message-section {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 3em;
+}
+
+.text p {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.image-div {
+  width: 200px;
+}
+
+.schools {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4em;
+}
+
+@media screen and (min-width: 1024px) {
+  .text p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image-div {
+    width: 100px;
+  }
+}

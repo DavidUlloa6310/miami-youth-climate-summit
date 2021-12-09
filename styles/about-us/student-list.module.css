@@ -1,0 +1,10 @@
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
