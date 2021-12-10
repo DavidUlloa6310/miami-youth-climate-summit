@@ -1,13 +1,14 @@
 .main {
-  /* background-image: url("../../images/learn/beach.png");
+  background-image: url("../../images/learn/beach.svg");
+  min-height: 100vh;
   background-position: bottom;
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 .title,
 .column p {
-  color: white;
+  color: black;
 }
 
 .title {

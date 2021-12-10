@@ -4,7 +4,7 @@ import styles from "../../styles/learn/the-science.module.css";
 
 function TheScience(props) {
   useEffect(() => {
-    document.getElementById("body").style.backgroundColor = "#96DEE1";
+    document.getElementById("body").style.backgroundColor = "#4EC3F7";
   }, []);
 
   return (
