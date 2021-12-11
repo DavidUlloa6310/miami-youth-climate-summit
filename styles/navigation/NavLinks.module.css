@@ -1,5 +1,6 @@
 .navLink {
   cursor: pointer;
+  font-size: 1.2em;
 }
 
 .drop-down {
@@ -8,6 +9,7 @@
 
 .drop-down h2 {
   text-align: center;
+  font-size: 1.2em;
 }
 
 .drop-down:hover > ul {

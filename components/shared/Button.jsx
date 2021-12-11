@@ -6,6 +6,7 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
+      style={props.style}
       className={`${styles["button"]} ${
         props.dark ? styles["dark"] : styles["light"]
       }`}

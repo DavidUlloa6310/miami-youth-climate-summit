@@ -35,6 +35,10 @@
 .cloudTwo,
 .cloudThree {
   position: absolute;
+  animation-duration: 10s;
+  animation-name: up-and-down;
+  animation-iteration-count: infinite;
+  animation-direction: both;
 }
 
 .cloudOne {
@@ -45,11 +49,13 @@
 .cloudTwo {
   top: 10px;
   right: 10%;
+  animation-delay: 3s;
 }
 
 .cloudThree {
   top: 30px;
   right: 40%;
+  animation-delay: 6s;
 }
 
 .custom-shape-divider-bottom-1637161014 {
@@ -84,5 +90,19 @@
 @media screen and (max-width: 1024px) {
   .cloud {
     display: none;
+  }
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }

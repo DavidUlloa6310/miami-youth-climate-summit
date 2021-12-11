@@ -45,7 +45,7 @@ function PhotoGallery(props) {
             <Image
               src={coexist}
               alt="Coexist"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -60,7 +60,7 @@ function PhotoGallery(props) {
             <Image
               src={acidicOCean}
               alt="Acidic Ocean"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -75,7 +75,7 @@ function PhotoGallery(props) {
             <Image
               src={blueMoon}
               alt="Blue Moon"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -90,7 +90,7 @@ function PhotoGallery(props) {
             <Image
               src={cowFarts}
               alt="Cow Farts"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -105,7 +105,7 @@ function PhotoGallery(props) {
             <Image
               src={featheredFriend}
               alt="Feathered Friend"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -119,7 +119,7 @@ function PhotoGallery(props) {
             <Image
               src={fireAndWater}
               alt="Fire and Water"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -133,7 +133,7 @@ function PhotoGallery(props) {
             <Image
               src={floridaBeach}
               alt="Florida Beach"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -148,7 +148,7 @@ function PhotoGallery(props) {
             <Image
               src={spottedGiants}
               alt="Spotted Giants"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -162,7 +162,7 @@ function PhotoGallery(props) {
             <Image
               src={greyCity}
               alt="Grey City"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -176,7 +176,7 @@ function PhotoGallery(props) {
             <Image
               src={hangingOn}
               alt="Hanging On"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -192,7 +192,7 @@ function PhotoGallery(props) {
             <Image
               src={leadKids}
               alt="Lead Kids"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -206,7 +206,7 @@ function PhotoGallery(props) {
             <Image
               src={lostCity}
               alt="Lost City"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -220,7 +220,7 @@ function PhotoGallery(props) {
             <Image
               src={madeInGaia}
               alt="Made In Gaia"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -234,7 +234,7 @@ function PhotoGallery(props) {
             <Image
               src={melting}
               alt="Melting"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -249,7 +249,7 @@ function PhotoGallery(props) {
             <Image
               src={natureWillPrevail}
               alt="Nature Will Prevail"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -263,7 +263,7 @@ function PhotoGallery(props) {
             <Image
               src={oilInArtic}
               alt="Oil In The Artic"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -279,7 +279,7 @@ function PhotoGallery(props) {
             <Image
               src={personalStrength}
               alt="Personal Strength"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -294,7 +294,7 @@ function PhotoGallery(props) {
             <Image
               src={pipingPlover}
               alt="Pipin Plover"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -308,7 +308,7 @@ function PhotoGallery(props) {
             <Image
               src={rainCheck}
               alt="Rain Check"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -322,7 +322,7 @@ function PhotoGallery(props) {
             <Image
               src={rebirth}
               alt="Rebirth"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -336,7 +336,7 @@ function PhotoGallery(props) {
             <Image
               src={seaLevelRise}
               alt="Sea Level Rise"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -350,7 +350,7 @@ function PhotoGallery(props) {
             <Image
               src={stripedGiants}
               alt="Striped Giants"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -364,7 +364,7 @@ function PhotoGallery(props) {
             <Image
               src={summerTime}
               alt="Summer Time"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -376,7 +376,7 @@ function PhotoGallery(props) {
             <Image
               src={sunAndFun}
               alt="Sun and Fun"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -390,7 +390,7 @@ function PhotoGallery(props) {
             <Image
               src={sunTime}
               alt="Sun Time"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>
@@ -406,7 +406,7 @@ function PhotoGallery(props) {
             <Image
               src={whenRoachesReign}
               alt="When Roaches Reign"
-              layout="fill"
+              layout="responsive"
               objectFit="cover"
               objectPosition="50% 50%"
             ></Image>

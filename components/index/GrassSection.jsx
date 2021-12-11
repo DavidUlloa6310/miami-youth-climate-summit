@@ -17,7 +17,9 @@ function GrassSection(props) {
           Join us to learn about climate change from a global perspective.
         </p>
         <div className={styles["buttons"]}>
-          <Button>About Us</Button>
+          <Link passHref href="/about-us/message">
+            <Button>About Us</Button>
+          </Link>
 
           <Link href="https://whova.com/portal/registration/mmycs_202102">
             <Button>Register</Button>

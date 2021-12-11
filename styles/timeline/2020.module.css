@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 6em;
+}
+
+.speakers {
+  text-align: center;
+}
+
+.speakers h2 {
+  font-size: 3em;
+}

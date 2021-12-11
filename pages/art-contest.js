@@ -14,6 +14,7 @@ function ArtContest(props) {
       <h1 className={styles["title"]}>
         Take A Look At These Amazing Submissions!
       </h1>
+      <h2 style={{ textAlign: "center" }}>Click for full image</h2>
       <PhotoGallery></PhotoGallery>
     </main>
   );

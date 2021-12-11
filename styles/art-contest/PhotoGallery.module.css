@@ -58,7 +58,7 @@
   grid-row: span 6;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
   }

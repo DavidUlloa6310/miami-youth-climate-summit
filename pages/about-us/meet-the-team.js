@@ -12,7 +12,7 @@ function MeetTheTeam(props) {
 
   return (
     <section className={styles["team-section"]}>
-      <h1>2021 Student Leadership Board</h1>
+      <h1>2022 Student Leadership Board</h1>
       <StudentList></StudentList>
       <h1>Faculty Advisors</h1>
       <FacultyList></FacultyList>
