@@ -44,6 +44,12 @@ function Timeline(props) {
           </li>
         </ul>
       </div>
+      <div className={styles["roots"]}>
+        <Image
+          alt="Roots"
+          src={require("../../images/timeline/roots.svg")}
+        ></Image>
+      </div>
     </section>
   );
 }

@@ -46,14 +46,11 @@ function NavLinks(props) {
           <Link passHref href="/about-us/meet-the-team">
             <li>Meet the Team</li>
           </Link>
-          <Link passHref href = "/about-us/contact"><li>Contact Us</li></Link>
+          <Link passHref href="/about-us/contact">
+            <li>Contact Us</li>
+          </Link>
         </ul>
       </div>
-      <Link passHref href="/support">
-        <h2 className={styles["navLink"]} style={props.style}>
-          Support
-        </h2>
-      </Link>
       <Link passHref href="/timeline">
         <h2 className={styles["navLink"]} style={props.style}>
           Timeline
