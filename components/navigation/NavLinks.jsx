@@ -4,10 +4,23 @@ import Link from "next/link";
 import styles from "../../styles/navigation/NavLinks.module.css";
 
 function NavLinks(props) {
-  const [showDrawer, setShowDrawer] = useState(false);
+  const [showAboutUs, setShowAboutUs] = useState(false);
+  const [showLearn, setShowLearn] = useState(false);
 
-  function handleDrawer() {
-    setShowDrawer((prevState) => !prevState);
+  function handleShowAboutUs() {
+    setShowAboutUs((prevState) => !prevState);
+  }
+
+  function handleShowLearn() {
+    setShowLearn((prevState) => !prevState);
+  }
+
+  function disableAboutUs() {
+    setShowAboutUs(false);
+  }
+
+  function disableLearn() {
+    setShowLearn(false);
   }
 
   return (
@@ -17,11 +30,22 @@ function NavLinks(props) {
           Home
         </h2>
       </Link>
-      <Link passHref href="/learn">
-        <h2 className={styles["navLink"]} style={props.style}>
-          Learn
-        </h2>
-      </Link>
+      <div className={`${styles["drop-down"]}`}>
+        <h2 onClick={handleShowLearn}>Learn</h2>
+        {showLearn && (
+          <ul className={`${styles["drop-down-list"]}`}>
+            <Link passHref href="/learn/the-problem">
+              <li onClick={disableLearn}>The Problem</li>
+            </Link>
+            <Link passHref href="/learn/the-science">
+              <li onClick={disableLearn}>The Science</li>
+            </Link>
+            <Link passHref href="/learn/the-solution">
+              <li onClick={disableLearn}>The Solution</li>
+            </Link>
+          </ul>
+        )}
+      </div>
       <Link passHref href="/schedule">
         <h2 className={styles["navLink"]} style={props.style}>
           Summit Schedule
@@ -37,19 +61,21 @@ function NavLinks(props) {
           Sponsors
         </h2>
       </Link>
-      <div className={`${styles["drop-down"]} ${showDrawer ? "show" : ""}`}>
-        <h2 onClick={handleDrawer}>About Us</h2>
-        <ul className={`${styles["drop-down-list"]}`}>
-          <Link passHref href="/about-us/message">
-            <li>A Message From the Co-Presidents</li>
-          </Link>
-          <Link passHref href="/about-us/meet-the-team">
-            <li>Meet the Team</li>
-          </Link>
-          <Link passHref href="/about-us/contact">
-            <li>Contact Us</li>
-          </Link>
-        </ul>
+      <div className={`${styles["drop-down"]}`}>
+        <h2 onClick={handleShowAboutUs}>About Us</h2>
+        {showAboutUs && (
+          <ul className={`${styles["drop-down-list"]}`}>
+            <Link passHref href="/about-us/message">
+              <li onClick={disableAboutUs}>A Message From the Co-Presidents</li>
+            </Link>
+            <Link passHref href="/about-us/meet-the-team">
+              <li onClick={disableAboutUs}>Meet the Team</li>
+            </Link>
+            <Link passHref href="/about-us/contact">
+              <li onClick={disableAboutUs}>Contact Us</li>
+            </Link>
+          </ul>
+        )}
       </div>
       <Link passHref href="/timeline">
         <h2 className={styles["navLink"]} style={props.style}>

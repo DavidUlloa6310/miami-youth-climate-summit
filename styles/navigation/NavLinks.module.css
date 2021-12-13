@@ -5,15 +5,13 @@
 
 .drop-down {
   position: relative;
+  width: 100px;
 }
 
 .drop-down h2 {
   text-align: center;
   font-size: 1.2em;
-}
-
-.drop-down:hover > ul {
-  display: block;
+  cursor: pointer;
 }
 
 .show > ul {
@@ -21,7 +19,6 @@
 }
 
 .drop-down-list {
-  display: none;
   position: absolute;
   top: 110%;
   width: 200%;

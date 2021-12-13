@@ -11,7 +11,7 @@ function Schedule(props) {
     <section className={styles["schedule-section"]}>
       <p>
         This year we will be hosting a hybrid summit. It will take place on
-        March 5th, 2022. <br />
+        March 13th, 2022. <br />
         It will be in person at UM RSMAS and available virtually through Whoova
         (advanced registration will be required).
       </p>

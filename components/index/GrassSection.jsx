@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/dist/client/link";
+import Image from "next/image";
 
 import Button from "../shared/Button";
 
@@ -17,15 +18,13 @@ function GrassSection(props) {
           Join us to learn about climate change from a global perspective.
         </p>
         <div className={styles["buttons"]}>
-          <Link passHref href="/about-us/message">
-            <Button>About Us</Button>
-          </Link>
-
           <Link href="https://whova.com/portal/registration/mmycs_202102">
-            <Button>Register</Button>
+            <Button style={{ width: "200px", fontSize: "1.5em" }}>
+              Register
+            </Button>
           </Link>
         </div>
-        <p className={styles["email"]}>hello@miamiyouthclimatesummit.org</p>
+        <p className={styles["email"]}>miami.ycs@gmail.com</p>
       </div>
     </section>
   );

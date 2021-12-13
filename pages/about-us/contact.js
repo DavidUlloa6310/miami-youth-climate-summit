@@ -12,7 +12,7 @@ function Contact(props) {
     <section className={styles["contact-section"]}>
       <div className={styles["text"]}>
         <h1>Contact Us</h1>
-        <h2>email: hello@miamiyouthclimatesummit.org</h2>
+        <h2>email: miami.ycs@gmail.com</h2>
       </div>
       <form className={styles["form"]}>
         <div className={styles["input-div"]}>

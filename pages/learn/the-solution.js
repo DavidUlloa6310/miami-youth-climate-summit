@@ -11,7 +11,7 @@ function TheSolution(props) {
 
   return (
     <section className={styles["solution-section"]}>
-      <h1 className={styles["title"]}>The Solution</h1>
+      <h1 className={styles["title"]}>The Solutions</h1>
       <div className={styles["grid"]}>
         <Cloud height={600} width={600}>
           <h2 className={styles["cloud-heading"]}>
