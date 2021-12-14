@@ -1,6 +1,10 @@
 .grass-section {
   min-height: 30vh;
   background-color: #88d062;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons {

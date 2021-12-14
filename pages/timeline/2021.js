@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MemberCard from "../../components/about-us/meet-the-team/MemberCard";
+import Sponsors from "../../components/timeline/2021/sponsors";
 
 import styles from "../../styles/timeline/2021.module.css";
 
@@ -49,6 +50,7 @@ function Year2021(props) {
           })}
         </div>
       </div>
+      <Sponsors></Sponsors>
     </section>
   );
 }
