@@ -5,7 +5,7 @@
 
 .drop-down {
   position: relative;
-  width: 100px;
+  width: 100%;
 }
 
 .drop-down h2 {
@@ -32,4 +32,10 @@
   padding: 5px;
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .drop-down {
+    width: 100px;
+  }
 }

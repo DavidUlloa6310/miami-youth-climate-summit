@@ -13,7 +13,7 @@ function TheSolution(props) {
     <section className={styles["solution-section"]}>
       <h1 className={styles["title"]}>The Solutions</h1>
       <div className={styles["grid"]}>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>
             1. No New Fossil Fuel Projects. <br />
             Anywhere
@@ -23,7 +23,7 @@ function TheSolution(props) {
             Take The Florida Climate Pledge.
           </p>
         </Cloud>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>
             2. A Fast and Just Transition to 100% Renewable Energy. <br />
             Deadline: 2030.
@@ -36,7 +36,7 @@ function TheSolution(props) {
             number one energy saver individuals can take.
           </p>
         </Cloud>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>
             3. No Continued Deforestation Anywhere. Deadline: 2025.
           </h2>
@@ -48,7 +48,7 @@ function TheSolution(props) {
             products and eating only foods that don’t deforest our planet.`}
           </p>
         </Cloud>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>4. Reforestation.</h2>
           <p className={styles["cloud-text"]}>
             Reforest our communities. We can do our part by planting trees. By
@@ -59,7 +59,7 @@ function TheSolution(props) {
             population. While we still need to cut carbon, it’s a start.
           </p>
         </Cloud>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>5. Education.</h2>
           <p className={styles["cloud-text"]}>
             {`Americas have a greater carbon footprint, per capita than anywhere
@@ -71,7 +71,7 @@ function TheSolution(props) {
             fundamental part of the curriculum.`}
           </p>
         </Cloud>
-        <Cloud height={600} width={600}>
+        <Cloud height={450} width={450}>
           <h2 className={styles["cloud-heading"]}>
             6. Switch to a healthier diet.
           </h2>
