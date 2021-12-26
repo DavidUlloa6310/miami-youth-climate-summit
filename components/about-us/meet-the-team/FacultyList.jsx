@@ -116,6 +116,20 @@ function FacultyList(props) {
         name="Mr. Mark Tohulka"
         school="Gulliver Prep"
       ></MemberCard>
+      <MemberCard
+        image={
+          <Image
+            height={300}
+            width={400}
+            layout="fixed"
+            objectFit="cover"
+            src={require("../../../images/about-us/team/Mark Godinez.jpg")}
+            alt="Mr. Mark Godinez"
+          ></Image>
+        }
+        name="Mr. Mark Godinez"
+        school="South Dade Senior High"
+      ></MemberCard>
     </section>
   );
 }

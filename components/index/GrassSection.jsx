@@ -45,6 +45,7 @@ function GrassSection(props) {
             src={imageOne}
             alt="Image One"
             key={1}
+            priority
           ></Image>,
           <Image
             src={imageTwo}
@@ -52,6 +53,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Two"
             key={2}
+            priority
           ></Image>,
           <Image
             src={imageThree}
@@ -59,6 +61,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Three"
             key={3}
+            priority
           ></Image>,
           <Image
             src={imageFour}
@@ -66,6 +69,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Four"
             key={4}
+            priority
           ></Image>,
           <Image
             src={imageFive}
@@ -73,6 +77,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Five"
             key={5}
+            priority
           ></Image>,
           <Image
             src={imageSix}
@@ -80,6 +85,7 @@ function GrassSection(props) {
             width={400}
             alt="Image Six"
             key={6}
+            priority
           ></Image>,
           <Image
             src={imageSeven}
@@ -87,6 +93,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Seven"
             key={7}
+            priority
           ></Image>,
           <Image
             src={imageEight}
@@ -94,6 +101,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Eight"
             key={8}
+            priority
           ></Image>,
           <Image
             src={imageNine}
@@ -101,6 +109,7 @@ function GrassSection(props) {
             width={600}
             alt="Image Nine"
             key={9}
+            priority
           ></Image>,
         ]}
       ></ImageSlider>

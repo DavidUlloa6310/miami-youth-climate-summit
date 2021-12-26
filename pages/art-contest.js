@@ -12,9 +12,10 @@ function ArtContest(props) {
   return (
     <main>
       <h1 className={styles["title"]}>
-        Take A Look At These Amazing Submissions!
+        Take A Look At These Amazing Submissions from the 2021 Competition!
       </h1>
-      <h2 style={{ textAlign: "center" }}>Click for full image</h2>
+      <h2 style={{ textAlign: "center" }}>Click for full image!</h2>
+      <h3 style={{ textAlign: "center" }}>2022 Art Contest Will Be Up Soon</h3>
       <PhotoGallery></PhotoGallery>
     </main>
   );

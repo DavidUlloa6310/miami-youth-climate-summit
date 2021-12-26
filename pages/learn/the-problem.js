@@ -8,11 +8,11 @@ import graph from "../../images/learn/graph.png";
 
 function TheProblem(props) {
   useEffect(() => {
-    document.getElementById("body").style.backgroundColor = "#96DEE1";
+    document.getElementById("body").style.backgroundColor = "#3d8894";
   }, []);
 
   return (
-    <main>
+    <section className={styles["problem-section"]}>
       <h1 className={styles["title"]}>The Problem</h1>
       <div className={styles["columns"]}>
         <div className={styles["column"]}>
@@ -61,7 +61,7 @@ function TheProblem(props) {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 

@@ -1,3 +1,9 @@
+.problem-section {
+  background-image: url("../../images/learn/mountains.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title,
 .column p {
   color: white;

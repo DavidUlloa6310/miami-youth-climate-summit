@@ -40,8 +40,8 @@ function NavLinks(props) {
             <Link passHref href="/learn/the-science">
               <li onClick={disableLearn}>The Science</li>
             </Link>
-            <Link passHref href="/learn/the-solution">
-              <li onClick={disableLearn}>The Solution</li>
+            <Link passHref href="/learn/the-solutions">
+              <li onClick={disableLearn}>The Solutions</li>
             </Link>
           </ul>
         )}

@@ -65,7 +65,7 @@
 }
 
 .roots {
-  transform: translateX(-30px);
+  transform: translate(-32px, -10px);
 }
 @media only screen and (min-width: 768px) {
   .timeline:before {
