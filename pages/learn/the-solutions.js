@@ -6,13 +6,13 @@ import styles from "../../styles/learn/the-solution.module.css";
 
 function TheSolution(props) {
   useEffect(() => {
-    document.getElementById("body").style.backgroundColor = "#96DEE1";
+    document.getElementById("body").style.backgroundColor = "#20aae6";
   }, []);
 
   return (
     <section className={styles["solution-section"]}>
       <h1 className={styles["title"]}>The Solutions</h1>
-      <div className={styles["grid"]}>
+      <div className={styles["text-box"]}>
         <div>
           <h2>
             1. No New Fossil Fuel Projects. <br />

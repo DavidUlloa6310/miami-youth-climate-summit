@@ -3,36 +3,41 @@
   flex-direction: column;
   align-items: center;
 
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url("../../images/learn/glacier.svg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
 .title {
   font-size: 5em;
-  color: white;
+  color: black;
   text-align: center;
 }
 
-.grid {
+.text-box {
   display: flex;
   flex-direction: column;
   width: 80vw;
 }
 
-.grid h2,
-.grid p {
-  color: white;
+.text-box h2,
+.text-box p {
+  color: black;
 }
 
-.grid h2 {
+.text-box h2 {
   font-size: 2.5em;
   text-decoration: underline;
 }
 
-.grid p {
+.text-box p {
   font-size: 1.5em;
 }
 
-.grid > div {
+.text-box > div {
   margin: 20px;
 }
 
