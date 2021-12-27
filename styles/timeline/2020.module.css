@@ -11,13 +11,14 @@
 
 .section {
   display: flex;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .title {
-  font-size: 6em;
+  font-size: 4em;
 }
 
 .speakers {
