@@ -43,10 +43,14 @@ function NavBar(props) {
                 src={climateSummitLogo}
                 alt="Miami Climate Summit"
                 layout="responsive"
+                priority
               />
             </div>
             <div classNames={styles["links"]}>
-              <NavLinks style={{ textAlign: "center" }}></NavLinks>
+              <NavLinks
+                style={{ textAlign: "center" }}
+                onClick={closeDrawer}
+              ></NavLinks>
             </div>
           </Drawer>
           <ScreenBackground onClick={closeDrawer} />

@@ -15,6 +15,7 @@ function SkySection(props) {
             src={climateSummitLogo}
             alt="Miami Climate Summit"
             layout="responsive"
+            priority
           />
         </div>
         <h2 style={{ textAlign: "center" }}>{"We're in this together"}</h2>

@@ -17,16 +17,26 @@ function NavLinks(props) {
 
   function disableAboutUs() {
     setShowAboutUs(false);
+    if (props.onClick()) {
+      props.onClick();
+    }
   }
 
   function disableLearn() {
     setShowLearn(false);
+    if (props.onClick) {
+      props.onClick();
+    }
   }
 
   return (
     <>
       <Link passHref href="/">
-        <h2 className={styles["navLink"]} style={props.style}>
+        <h2
+          className={styles["navLink"]}
+          style={props.style}
+          onClick={props.onClick}
+        >
           Home
         </h2>
       </Link>
@@ -47,17 +57,29 @@ function NavLinks(props) {
         )}
       </div>
       <Link passHref href="/schedule">
-        <h2 className={styles["navLink"]} style={props.style}>
+        <h2
+          className={styles["navLink"]}
+          style={props.style}
+          onClick={props.onClick}
+        >
           Summit Schedule
         </h2>
       </Link>
       <Link passHref href="/art-contest">
-        <h2 className={styles["navLink"]} style={props.style}>
+        <h2
+          className={styles["navLink"]}
+          style={props.style}
+          onClick={props.onClick}
+        >
           Art Contest
         </h2>
       </Link>
       <Link passHref href="/sponsors">
-        <h2 className={styles["navLink"]} style={props.style}>
+        <h2
+          className={styles["navLink"]}
+          style={props.style}
+          onClick={props.onClick}
+        >
           Sponsors
         </h2>
       </Link>
@@ -78,7 +100,11 @@ function NavLinks(props) {
         )}
       </div>
       <Link passHref href="/timeline">
-        <h2 className={styles["navLink"]} style={props.style}>
+        <h2
+          className={styles["navLink"]}
+          style={props.style}
+          onClick={props.onClick}
+        >
           Timeline
         </h2>
       </Link>

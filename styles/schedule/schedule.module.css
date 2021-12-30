@@ -3,10 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   text-align: center;
+
+  background-image: url("../../images/schedule/desert.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .schedule-section p {
   font-size: 2em;
-  color: white;
+  color: black;
 }

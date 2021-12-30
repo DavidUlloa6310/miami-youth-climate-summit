@@ -4,7 +4,7 @@ import styles from "../styles/schedule/schedule.module.css";
 
 function Schedule(props) {
   useEffect(() => {
-    document.getElementById("body").style.backgroundColor = "#96DEE1";
+    document.getElementById("body").style.backgroundColor = "#f6b255";
   }, []);
 
   return (
