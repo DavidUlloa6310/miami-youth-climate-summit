@@ -1,0 +1,9 @@
+.horizontal-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-div > svg {
+  margin: 20px;
+  cursor: pointer;
+}

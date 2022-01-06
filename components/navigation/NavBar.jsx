@@ -4,6 +4,7 @@ import Image from "next/image";
 import Drawer from "./Drawer";
 import ScreenBackground from "../shared/ScreenBackground";
 import NavLinks from "./NavLinks";
+import SocialMedia from "../shared/SocialMedia";
 
 import climateSummitLogo from "../../images/index/youth-climate-summit.png";
 
@@ -51,6 +52,7 @@ function NavBar(props) {
                 style={{ textAlign: "center" }}
                 onClick={closeDrawer}
               ></NavLinks>
+              <SocialMedia size={20}></SocialMedia>
             </div>
           </Drawer>
           <ScreenBackground onClick={closeDrawer} />

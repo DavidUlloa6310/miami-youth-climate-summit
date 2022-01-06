@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/dist/client/link";
 import Image from "next/image";
 import ImageSlider from "../shared/ImageSlider";
+import SocialMedia from "../shared/SocialMedia";
 
 import Button from "../shared/Button";
 
@@ -122,6 +123,7 @@ function GrassSection(props) {
           ></Image>,
         ]}
       ></ImageSlider>
+      <SocialMedia size={25} color="white"></SocialMedia>
     </section>
   );
 }
