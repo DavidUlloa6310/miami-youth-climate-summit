@@ -8,7 +8,7 @@ export default async function mail(req, res) {
     from: "miami.ycs@gmail.com",
     subject: body.subject,
     text: body.message,
-    html: `${body.message}<br/><h3>Sent from MiamiYouthClimateSummit.com, Email: ${body.email}</h3>`,
+    html: `${body.message}<br/><h3>Sent from MiamiYouthClimateSummit.com, Sender email: ${body.email}</h3>`,
   };
 
   await sgMail.send(msg);
