@@ -18,7 +18,7 @@ function NavLinks(props) {
   function disableAboutUs() {
     console.log(props.onClick);
     setShowAboutUs(false);
-    if (props.onClick()) {
+    if (props.onClick) {
       props.onClick();
     }
   }
