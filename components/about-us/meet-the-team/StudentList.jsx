@@ -114,7 +114,7 @@ function StudentList(props) {
             width={400}
             layout="fixed"
             objectPosition="center right"
-            src={require("../../../images/about-us/team/Emrie Pedraza, DEI, Doral Academy, 10th.jpg")}
+            src={require("../../../images/about-us/team/Emrie Pedraza.jpeg")}
             alt="Emrie Pedraza"
           ></Image>
         }

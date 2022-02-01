@@ -28,7 +28,7 @@ function NavBar(props) {
     <>
       {showNavBar && (
         <nav className={styles["navbar"]}>
-          <NavLinks></NavLinks>
+          <NavLinks onClick={closeDrawer}></NavLinks>
           <div className={styles["burger"]} onClick={openDrawer}>
             <div className={styles["burger-line"]}></div>
             <div className={styles["burger-line"]}></div>
