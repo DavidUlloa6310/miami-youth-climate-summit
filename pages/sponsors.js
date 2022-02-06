@@ -10,7 +10,49 @@ function Sponsors(props) {
 
   return (
     <section className={styles["sponsors-section"]}>
-      <h1>Our 2022 Sponsors Will Be Posted Here Soon!</h1>
+      <h1>Here are our 2022 Sponsors!</h1>
+      <h2>Our Stand For Nature Sponsors</h2>
+      <div className={styles["sponsors-grid"]}>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/Boxed Water logo.jpg")}
+            alt="Boxed Water"
+            layout="responsive"
+          ></Image>
+        </div>
+      </div>
+
+      <h2>Our Stand For Wildlife Sponsors</h2>
+      <div className={styles["sponsors-grid"]}>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/nature.png")}
+            alt="Forces of Nature"
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/vitabug.png")}
+            alt="Vita Bug Juice"
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/cummins.jpg")}
+            alt="Cummins and Cederberg"
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/Caplow+Manzano+Logo.png")}
+            alt="Caplow Manzano"
+            layout="responsive"
+          ></Image>
+        </div>
+      </div>
     </section>
   );
 }

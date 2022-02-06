@@ -233,6 +233,21 @@ function StudentList(props) {
             height={300}
             width={400}
             layout="fixed"
+            objectPosition="right top"
+            src={require("../../../images/about-us/team/William Charouhis Sponsorship Drirector Ransom Everglades.jpg")}
+            alt="William Charouhis"
+          ></Image>
+        }
+        name="William Charouhis, Co Director of Sponsorship"
+        school="Ransom Everglades"
+      ></MemberCard>
+      <MemberCard
+        image={
+          <Image
+            objectFit="cover"
+            height={300}
+            width={400}
+            layout="fixed"
             src={require("../../../images/about-us/team/Madison Munroe, Ransom Everglades, Website Coordinator.jpg")}
             alt="Madison Munroe"
           ></Image>

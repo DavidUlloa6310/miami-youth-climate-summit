@@ -30,20 +30,20 @@ function GrassSection(props) {
           Join us to learn about climate change from a global perspective.
         </p>
         <div className={styles["buttons"]}>
-          {/* <Link href="https://whova.com/portal/registration/mmycs_202102">
+          <Link href="https://whova.com/portal/registration/mycs_202203/">
             <Button style={{ width: "200px", fontSize: "1.5em" }}>
               Register
             </Button>
-          </Link> */}
+          </Link>
 
-          <Button
+          {/* <Button
             style={{ width: "200px", fontSize: "1.5em" }}
             onClick={() => {
               alert("Whova Register will be up soon!");
             }}
           >
             Register
-          </Button>
+          </Button> */}
         </div>
         <p className={styles["email"]}>miami.ycs@gmail.com</p>
       </div>
