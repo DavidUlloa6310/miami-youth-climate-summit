@@ -16,20 +16,22 @@ function ScheduleItem(props) {
 
   return (
     <div className={styles["schedule-item"]}>
-      <div className={styles["info"]}>
-        <h2>{props.name}</h2>
+      <div style={{ padding: "10px" }}>
         {props.image ? (
           props.image
         ) : (
           <Image
             src={MYCSLogo}
             alt="MYCS Logo"
-            width={200}
-            height={200}
+            width={150}
+            height={150}
             className={styles["image"]}
           ></Image>
         )}
-        <h3>{props.title}</h3>
+      </div>
+      <div className={styles["info"]}>
+        <h2 className={styles["name"]}>{props.name}</h2>
+        <h3 className={styles["title"]}>{props.title}</h3>
       </div>
     </div>
   );

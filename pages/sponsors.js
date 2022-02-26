@@ -11,6 +11,20 @@ function Sponsors(props) {
   return (
     <section className={styles["sponsors-section"]}>
       <h1>Here are our 2022 Sponsors!</h1>
+
+      <h2>Our Stand For Ocean Sponsors</h2>
+      <div className={styles["sponsors-grid"]}>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/ransom.png")}
+            alt="Boxed Water"
+            height={300}
+            width={600}
+            layout="responsive"
+          ></Image>
+        </div>
+      </div>
+
       <h2>Our Stand For Nature Sponsors</h2>
       <div className={styles["sponsors-grid"]}>
         <div className={styles["image-div"]}>

@@ -26,13 +26,14 @@ function Schedule(props) {
   return (
     <section className={styles["schedule-section"]}>
       <h1>Schedule</h1>
-      <h3>
+      <h3 className={styles["description"]}>
         This year we will be hosting a hybrid summit on Sunday, March 13th,
         2022. <br />
         It will be in person at Gulliver Prep Upper School Campus (6575 N
         Kendall Dr, Pinecrest, FL 33156) <br />
         and available virtually through Whova (advanced registration required).{" "}
       </h3>
+      <div className={styles["division"]}></div>
       <h2>Morning Session 9:00 AM - 11:45 AM</h2>
       <ScheduleItem announcement="Welcome: 9:00 AM - 9:20 AM"></ScheduleItem>
       <ScheduleItem
@@ -42,7 +43,7 @@ function Schedule(props) {
           <Image alt="Nicole Gazo" src={nicoleGazo} height={150} width={150} />
         }
       ></ScheduleItem>
-      <h2 style={{ fontSize: "26px" }}>
+      <h2 className={styles["breakout-heading"]}>
         Breakout Session #1, 10:00 AM - 10:45 AM
       </h2>
       <ScheduleItem name="Junk Kouture"></ScheduleItem>
@@ -58,15 +59,47 @@ function Schedule(props) {
           />
         }
       ></ScheduleItem>
-      <ScheduleItem name="Lauren Bartel" title="Million Orchids"></ScheduleItem>
-      <ScheduleItem name="Ron Magil"></ScheduleItem>
+      <ScheduleItem
+        name="Lauren Bartel"
+        title="Million Orchids"
+        image={
+          <Image
+            alt="Lauren Bartel"
+            src={require("../images/schedule/speakers/Lauren Bartel.jpg")}
+            height={150}
+            width={150}
+          />
+        }
+      ></ScheduleItem>
+      <ScheduleItem
+        name="Ron Magill"
+        image={
+          <Image
+            alt="Ron Magill"
+            src={require("../images/schedule/speakers/Ron_Magill.jpg")}
+            height={150}
+            width={150}
+          />
+        }
+      ></ScheduleItem>
       <ScheduleItem
         name="Miguel Endara"
         title="Educated Choices and Climate Activism"
       ></ScheduleItem>
-      <ScheduleItem name="John Morales"></ScheduleItem>
-      <ScheduleItem announcement="Exhibitor & Transition Time: 10:45 AM - 11:00 AM"></ScheduleItem>
-      <h2 style={{ fontSize: "26px" }}>
+      <ScheduleItem
+        name="John Morales"
+        image={
+          <Image
+            alt="John Morales"
+            src={require("../images/schedule/speakers/john morales.jpg")}
+            height={150}
+            width={150}
+          />
+        }
+      ></ScheduleItem>
+      <div className={styles["division"]}></div>
+      <h2>Exhibitor & Transition Time: 10:45 AM - 11:00 AM</h2>
+      <h2 className={styles["breakout-heading"]}>
         Breakout Session #2, 11:00 AM - 11:45 AM
       </h2>
       <ScheduleItem
@@ -82,7 +115,17 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem name="Raquel Fernandez"></ScheduleItem>
-      <ScheduleItem name="John Morales"></ScheduleItem>
+      <ScheduleItem
+        name="John Morales"
+        image={
+          <Image
+            alt="John Morales"
+            src={require("../images/schedule/speakers/john morales.jpg")}
+            height={150}
+            width={150}
+          />
+        }
+      ></ScheduleItem>
       <ScheduleItem
         name="Amy Clement"
         title="Climate Anxiety"
@@ -90,14 +133,33 @@ function Schedule(props) {
           <Image alt="Amy Clement" src={amyClement} height={150} width={150} />
         }
       ></ScheduleItem>
-      <ScheduleItem name="Ron Magill"></ScheduleItem>
+      <ScheduleItem
+        name="Ron Magill"
+        image={
+          <Image
+            alt="Ron Magill"
+            src={require("../images/schedule/speakers/Ron_Magill.jpg")}
+            height={150}
+            width={150}
+          />
+        }
+      ></ScheduleItem>
       <ScheduleItem announcement="Lunch & Boxed Water Video: 11:45 AM - 12:15 PM"></ScheduleItem>
-      <h2>Afternoon 12:15 PM - 3:15 PM</h2>
-      <h2 style={{ fontSize: "26px" }}>
+      <div className={styles["division"]}></div>
+      <h2>Afternoon / Lunch 12:15 PM - 3:15 PM</h2>
+      <h2 className={styles["breakout-heading"]}>
         Breakout Session #3, 12:25 PM - 1:10 PM
       </h2>
       <ScheduleItem
         name="Francisco Torres"
+        image={
+          <Image
+            alt="Compost For Life"
+            src={require("../images/schedule/speakers/compost for life.png")}
+            height={150}
+            width={150}
+          />
+        }
         title="Compost for Life"
       ></ScheduleItem>
       <ScheduleItem
@@ -161,7 +223,7 @@ function Schedule(props) {
       <ScheduleItem announcement="Art Contest Winners: 2:00 PM - 2:05 PM"></ScheduleItem>
       <ScheduleItem
         name="DEI Panel"
-        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Huston Cypress, 2:10 PM - 2:55 PM"
+        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Houston Cypress, 2:10 PM - 2:55 PM"
         image={
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Image
@@ -177,7 +239,12 @@ function Schedule(props) {
               height={150}
               width={150}
             />
-            <Image alt="MYCS Logo" src={MYCSLogo} height={150} width={150} />
+            <Image
+              alt="Houston Cypress"
+              src={require("../images/schedule/speakers/houston cypress.jpeg")}
+              height={150}
+              width={150}
+            />
           </div>
         }
       ></ScheduleItem>

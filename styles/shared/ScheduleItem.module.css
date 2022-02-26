@@ -2,18 +2,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
   border-radius: 20px;
   width: 70%;
-  max-width: 50rem;
+  max-width: 40rem;
   margin: 10px;
+  border: white 5px solid;
 }
 
 .info {
-  text-align: center;
+  text-align: left;
 }
 
 .image {
   border-radius: 16px;
+}
+
+.name,
+.title {
+  font-weight: 300;
+}
+
+.title {
+  color: #432711;
 }
