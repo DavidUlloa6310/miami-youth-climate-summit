@@ -10,10 +10,10 @@ function Schedule(props) {
   return (
     <section className={styles["schedule-section"]}>
       <p>
-        This year we will be hosting a hybrid summit. It will take place on
-        March 13th, 2022. <br />
-        It will be in person at UM RSMAS and available virtually through Whoova
-        (advanced registration will be required).
+        This year we will be hosting a hybrid summit on March 13th, 2022. <br />
+        It will be in person at Gulliver Prep Upper School Campus (6575 N Kendall Dr, Pinecrest, FL 33156) <br />
+         and available virtually through Whova
+        (advanced registration required).
       </p>
     </section>
   );
