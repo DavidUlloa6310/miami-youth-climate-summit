@@ -14,3 +14,8 @@
   font-size: 2em;
   color: black;
 }
+
+.schedule-section a {
+  color: blue;
+  text-decoration: underline;
+}
