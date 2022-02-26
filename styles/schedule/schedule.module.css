@@ -1,7 +1,6 @@
 .schedule-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
@@ -18,4 +17,16 @@
 .schedule-section a {
   color: blue;
   text-decoration: underline;
+}
+
+.schedule-section h1 {
+  font-size: 62px;
+}
+
+.schedule-section h2 {
+  font-size: 32px;
+}
+
+.schedule-section h3 {
+  font-size: 16px;
 }

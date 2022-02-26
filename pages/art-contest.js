@@ -19,7 +19,7 @@ function ArtContest(props) {
         2022 Art Contest Up Now! <br />
         <a
           style={{ color: "#96dee1", textDecoration: "underline" }}
-          href="https://www.google.com"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdlZrbunENEpJ3nN9wU4EoiMsXUQyFvuWfCID1SID0JakrS5A/viewform"
         >
           Click Here To Submit Your Art
         </a>

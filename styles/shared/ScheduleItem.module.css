@@ -1,0 +1,19 @@
+.schedule-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 70%;
+  max-width: 50rem;
+  margin: 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.image {
+  border-radius: 16px;
+}
