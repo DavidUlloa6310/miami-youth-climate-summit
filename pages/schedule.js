@@ -66,7 +66,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem name="John Morales"></ScheduleItem>
       <ScheduleItem announcement="Exhibitor & Transition Time: 10:45 AM - 11:00 AM"></ScheduleItem>
-      <h2 style={{ fontSize: "26px", color: "white" }}>
+      <h2 style={{ fontSize: "26px" }}>
         Breakout Session #2, 11:00 AM - 11:45 AM
       </h2>
       <ScheduleItem
@@ -92,8 +92,8 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem name="Ron Magill"></ScheduleItem>
       <ScheduleItem announcement="Lunch & Boxed Water Video: 11:45 AM - 12:15 PM"></ScheduleItem>
-      <h2 style={{ color: "white" }}>Afternoon 12:15 PM - 3:15 PM</h2>
-      <h2 style={{ fontSize: "26px", color: "white" }}>
+      <h2>Afternoon 12:15 PM - 3:15 PM</h2>
+      <h2 style={{ fontSize: "26px" }}>
         Breakout Session #3, 12:25 PM - 1:10 PM
       </h2>
       <ScheduleItem
