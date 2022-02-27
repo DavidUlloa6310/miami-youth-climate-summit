@@ -14,24 +14,33 @@ function ScheduleItem(props) {
     );
   }
 
+  let image = props.image;
+
+  if (!props.image) {
+    image = (
+      <Image
+        src={MYCSLogo}
+        alt="MYCS Logo"
+        width={150}
+        height={150}
+        className={styles["image"]}
+      ></Image>
+    );
+  }
+
   return (
     <div className={styles["schedule-item"]}>
-      <div style={{ padding: "10px" }}>
-        {props.image ? (
-          props.image
-        ) : (
-          <Image
-            src={MYCSLogo}
-            alt="MYCS Logo"
-            width={150}
-            height={150}
-            className={styles["image"]}
-          ></Image>
-        )}
-      </div>
-      <div className={styles["info"]}>
+      <div style={{ padding: "10px" }}>{!props.vertical && image}</div>
+      <div
+        className={styles["info"]}
+        style={props.vertical && { textAlign: "center" }}
+      >
         <h2 className={styles["name"]}>{props.name}</h2>
-        <h3 className={styles["title"]}>{props.title}</h3>
+        <h3 className={styles["description"]}>{props.description}</h3>
+        {props.vertical && image}
+        <h3 className={styles["title"]} style={props.titleStyles}>
+          {props.title && `Presenting : ${props.title}`}
+        </h3>
       </div>
     </div>
   );

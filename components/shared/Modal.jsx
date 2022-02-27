@@ -15,7 +15,11 @@ function Modal(props) {
     </>
   );
 
-  return createPortal(modal, document.getElementById("modal-hook"));
+  if (process.browser) {
+    return createPortal(modal, document.getElementById("modal-hook"));
+  }
+
+  return "";
 }
 
 export default Modal;

@@ -17,9 +17,27 @@ function Sponsors(props) {
         <div className={styles["image-div"]}>
           <Image
             src={require("../images/sponsors/ransom.png")}
-            alt="Boxed Water"
+            alt="Ransom Everglades School"
+            height={300}
+            width={800}
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/gulliver.png")}
+            alt="Gulliver High School"
             height={300}
             width={600}
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/carrol.jpg")}
+            alt="Carrollton School of the Sacred Heart"
+            height={300}
+            width={300}
             layout="responsive"
           ></Image>
         </div>

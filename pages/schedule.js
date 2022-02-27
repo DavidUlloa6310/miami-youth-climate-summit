@@ -34,19 +34,27 @@ function Schedule(props) {
         and available virtually through Whova (advanced registration required).{" "}
       </h3>
       <div className={styles["division"]}></div>
-      <h2>Morning Session 9:00 AM - 11:45 AM</h2>
       <ScheduleItem announcement="Welcome: 9:00 AM - 9:20 AM"></ScheduleItem>
+      <ScheduleItem announcement="Keynote Address: 9:20 AM - 9:50 AM"></ScheduleItem>
       <ScheduleItem
         name="Nicole Gazo"
-        title="Keynote Address, 9:20 AM - 9:50 AM"
+        description="GenCLEO Strategist"
+        title="Keynote Address"
+        titleStyles={{ fontWeight: "600", textDecoration: "underline" }}
         image={
           <Image alt="Nicole Gazo" src={nicoleGazo} height={150} width={150} />
         }
       ></ScheduleItem>
-      <h2 className={styles["breakout-heading"]}>
+      <ScheduleItem announcement="Breakout Session #1: 10:00 AM - 10:45 AM">
         Breakout Session #1, 10:00 AM - 10:45 AM
-      </h2>
-      <ScheduleItem name="Junk Kouture"></ScheduleItem>
+      </ScheduleItem>
+      <ScheduleItem
+        name="Lisa Merkle"
+        description="Co-Founder, Imagine Farms"
+        image={
+          <Image alt="Lisa Merkle" src={lisaMerkle} height={150} width={150} />
+        }
+      ></ScheduleItem>
       <ScheduleItem
         name="Caroline Chomanics"
         title="Eco-Action Organizing In Florida by Caroline Comanics"
@@ -61,6 +69,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem
         name="Lauren Bartel"
+        description="Gulliver Preparatory School, Million Orchids Project @ Fairchild Tropical Botanic Gardens"
         title="Million Orchids"
         image={
           <Image
@@ -73,6 +82,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem
         name="Ron Magill"
+        description="Goodwill Ambassador and Communications Director, Zoo Miami"
         image={
           <Image
             alt="Ron Magill"
@@ -88,6 +98,8 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem
         name="John Morales"
+        description="Chief Meteorologist at WTVJ NBC-6"
+        title="What's Ahead: Challenges to Florida in a Warmer World, and a Reason for Optimism"
         image={
           <Image
             alt="John Morales"
@@ -98,10 +110,7 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <div className={styles["division"]}></div>
-      <h2>Exhibitor & Transition Time: 10:45 AM - 11:00 AM</h2>
-      <h2 className={styles["breakout-heading"]}>
-        Breakout Session #2, 11:00 AM - 11:45 AM
-      </h2>
+      <ScheduleItem announcement="Breakout Session #2: 11:00 AM - 11:45 AM"></ScheduleItem>
       <ScheduleItem
         name="Caroline Chromanics"
         title="How Urban Agriculture Can Combat Climate Change"
@@ -117,6 +126,8 @@ function Schedule(props) {
       <ScheduleItem name="Raquel Fernandez"></ScheduleItem>
       <ScheduleItem
         name="John Morales"
+        description="Chief Meteorologist at WTVJ NBC-6"
+        title="What's Ahead: Challenges to Florida in a Warmer World, and a Reason for Optimism"
         image={
           <Image
             alt="John Morales"
@@ -128,6 +139,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem
         name="Amy Clement"
+        description="Professor, University of Miami Rosenstiel School of Marine and Atmospheric Science"
         title="Climate Anxiety"
         image={
           <Image alt="Amy Clement" src={amyClement} height={150} width={150} />
@@ -135,6 +147,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem
         name="Ron Magill"
+        description="Goodwill Ambassador and Communications Director, Zoo Miami"
         image={
           <Image
             alt="Ron Magill"
@@ -146,10 +159,7 @@ function Schedule(props) {
       ></ScheduleItem>
       <ScheduleItem announcement="Lunch & Boxed Water Video: 11:45 AM - 12:15 PM"></ScheduleItem>
       <div className={styles["division"]}></div>
-      <h2>Afternoon / Lunch 12:15 PM - 3:15 PM</h2>
-      <h2 className={styles["breakout-heading"]}>
-        Breakout Session #3, 12:25 PM - 1:10 PM
-      </h2>
+      <ScheduleItem announcement="Breakout Session #3: 12:25 PM - 1:10 PM"></ScheduleItem>
       <ScheduleItem
         name="Francisco Torres"
         image={
@@ -170,9 +180,15 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem
-        name="Lisa Merkle"
+        name="Junk Kouture"
+        title="Youth Fashion Creations Made From Recycled Materials."
         image={
-          <Image alt="Lisa Merkle" src={lisaMerkle} height={150} width={150} />
+          <Image
+            alt="Junk Kouture"
+            src={require("../images/schedule/speakers/junk kouture.png")}
+            height={150}
+            width={150}
+          ></Image>
         }
       ></ScheduleItem>
       <ScheduleItem
@@ -190,6 +206,7 @@ function Schedule(props) {
       <ScheduleItem
         name="Alexandra Ether & Barbara Martinez-Guerrero"
         title="Dream in Green Teacher Workshop"
+        vertical={true}
         image={
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Image
@@ -208,9 +225,12 @@ function Schedule(props) {
           </div>
         }
       ></ScheduleItem>
+      <ScheduleItem announcement="Keynote Address: 1:25 PM - 2:00 PM"></ScheduleItem>
       <ScheduleItem
         name="Jane Gilbert"
-        title="Keynote Address, 1:25PM"
+        description="Chief Heat Officer, Miami-Dade County"
+        title="Keynote Address"
+        titleStyles={{ fontWeight: "600", textDecoration: "underline" }}
         image={
           <Image
             alt="Jane Gilbert"
@@ -221,9 +241,12 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem announcement="Art Contest Winners: 2:00 PM - 2:05 PM"></ScheduleItem>
+      <ScheduleItem announcement="DEI Panel: 2:10 PM - 2:55 PM"></ScheduleItem>
       <ScheduleItem
         name="DEI Panel"
-        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Houston Cypress, 2:10 PM - 2:55 PM"
+        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Houston Cypress"
+        titleStyles={{ fontWeight: "600", textDecoration: "underline" }}
+        vertical={true}
         image={
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Image
