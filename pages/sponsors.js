@@ -16,7 +16,7 @@ function Sponsors(props) {
       <div className={styles["sponsors-grid"]}>
         <div className={styles["image-div"]}>
           <Image
-            src={require("../images/sponsors/ransom.png")}
+            src={require("../images/sponsors/ransom.jpg")}
             alt="Ransom Everglades School"
             height={300}
             width={800}
