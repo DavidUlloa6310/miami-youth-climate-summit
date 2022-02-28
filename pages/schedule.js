@@ -204,6 +204,17 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem
+        name="Tico Aran"
+        image={
+          <Image
+            src={require("../images/schedule/speakers/Tico Aran.jpg")}
+            alt="Tico Aran"
+            height={150}
+            width={150}
+          ></Image>
+        }
+      ></ScheduleItem>
+      <ScheduleItem
         name="Alexandra Ether & Barbara Martinez-Guerrero"
         title="Dream in Green Teacher Workshop"
         vertical={true}
