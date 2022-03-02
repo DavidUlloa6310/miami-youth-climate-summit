@@ -215,14 +215,14 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem
-        name="Alexandra Ether & Barbara Martinez-Guerrero"
+        name="Alexandra Ender & Barbara Martinez-Guerrero"
         title="Dream in Green Teacher Workshop"
         vertical={true}
         image={
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Image
               src={alexandraEnder}
-              alt="Alexandra Ether"
+              alt="Alexandra Ender"
               width={150}
               height={150}
               className={styles["image"]}

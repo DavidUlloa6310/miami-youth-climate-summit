@@ -41,6 +41,15 @@ function Sponsors(props) {
             layout="responsive"
           ></Image>
         </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/cleo.png")}
+            alt="CLEO Institute"
+            height={300}
+            width={300}
+            layout="responsive"
+          ></Image>
+        </div>
       </div>
 
       <h2>Our Stand For Nature Sponsors</h2>
