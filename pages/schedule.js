@@ -140,7 +140,7 @@ function Schedule(props) {
       <ScheduleItem
         name="Amy Clement"
         description="Professor, University of Miami Rosenstiel School of Marine and Atmospheric Science"
-        title="Climate Anxiety"
+        title="What Will Happen in Our Backyard"
         image={
           <Image alt="Amy Clement" src={amyClement} height={150} width={150} />
         }
@@ -180,15 +180,11 @@ function Schedule(props) {
         }
       ></ScheduleItem>
       <ScheduleItem
-        name="Junk Kouture"
-        title="Youth Fashion Creations Made From Recycled Materials."
+        name="Amy Clement"
+        description="Professor, University of Miami Rosenstiel School of Marine and Atmospheric Science"
+        title="What Will Happen in Our Backyard"
         image={
-          <Image
-            alt="Junk Kouture"
-            src={require("../images/schedule/speakers/junk kouture.png")}
-            height={150}
-            width={150}
-          ></Image>
+          <Image alt="Amy Clement" src={amyClement} height={150} width={150} />
         }
       ></ScheduleItem>
       <ScheduleItem
@@ -254,8 +250,8 @@ function Schedule(props) {
       <ScheduleItem announcement="Art Contest Winners: 2:00 PM - 2:05 PM"></ScheduleItem>
       <ScheduleItem announcement="DEI Panel: 2:10 PM - 2:55 PM"></ScheduleItem>
       <ScheduleItem
-        name="DEI Panel"
-        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Houston Cypress"
+        name="Diversity, Equity, and Inclusion (DEI) Panel"
+        title="Dwight Bullard, Claudia Navarro, Natalia Brown, Reverend Houston Cypress, Francois Alexandre"
         titleStyles={{ fontWeight: "600", textDecoration: "underline" }}
         vertical={true}
         image={
@@ -279,11 +275,26 @@ function Schedule(props) {
               height={150}
               width={150}
             />
+            <Image alt="MYCS Logo" src={MYCSLogo} height={150} width={150} />
           </div>
         }
       ></ScheduleItem>
-      <ScheduleItem announcement="Student Panel: 3:05 PM - 3:50 PM"></ScheduleItem>
-      <ScheduleItem announcement="Thank You and Farewell: 3:55 PM - 4:05 PM"></ScheduleItem>
+      <ScheduleItem announcement="Student Panel: 3:05 PM - 3:45 PM"></ScheduleItem>
+      <ScheduleItem
+        name="Mayor Daniella Levine Cava"
+        title={"Mayor Daniella Levine Cava\n3:45 PM - 4:00 PM"}
+        vertical
+        titleStyles={{ fontWeight: "600", textDecoration: "underline" }}
+        image={
+          <Image
+            alt="Mayor Daniella Levine Cava"
+            src={require("../images/schedule/speakers/levine crava.jpeg")}
+            height={150}
+            width={140}
+          ></Image>
+        }
+      ></ScheduleItem>
+      <ScheduleItem announcement="Closing Remarks: 4:00 PM - 4:05 PM"></ScheduleItem>
     </section>
   );
 }
