@@ -19,6 +19,12 @@ class MyDocument extends Document {
             content="We aim to elevate the discussion on climate change from “What is it?” to “What can we do to stop it?” with engaging speakers and workshops.
 Join us to learn about climate change from a global perspective."
           ></meta>
+          <meta
+            name="keywords"
+            content="MYCS, Miami Youth Climate Summit, Environment, Climate, Earth, 2022"
+          ></meta>
+          <meta property="title" content="Miami Youth Climate Summit"></meta>
+          <meta property="type" content="website" />
         </Head>
         <body id="body">
           <div id="drawer-hook"></div>
