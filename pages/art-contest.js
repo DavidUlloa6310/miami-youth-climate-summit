@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/head";
 
 import PhotoGallery from "../components/art-contest/PhotoGallery";
 
@@ -11,6 +12,9 @@ function ArtContest(props) {
 
   return (
     <main>
+      <Head>
+        <title>MYCS Website | Art Contest</title>
+      </Head>
       <h1 className={styles["title"]}>
         Take A Look At These Amazing Submissions from the 2021 Competition!
       </h1>

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/dist/shared/lib/head";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -15,6 +16,9 @@ function Index(props) {
 
   return (
     <section className={styles["learn-section"]}>
+      <Head>
+        <title>MYCS Website | Learn </title>
+      </Head>
       <div className={styles["content"]}>
         <h1>Learn About Climate Change!</h1>
         <h2>Click On One Of the Clouds</h2>

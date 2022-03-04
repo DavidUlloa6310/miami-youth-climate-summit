@@ -1,4 +1,6 @@
 import React, { useEffect, useReducer } from "react";
+import Head from "next/dist/shared/lib/head";
+
 import Button from "../../components/shared/Button";
 
 import styles from "../../styles/about-us/contact.module.css";
@@ -77,6 +79,9 @@ function Contact(props) {
 
   return (
     <section className={styles["contact-section"]}>
+      <Head>
+        <title>MYCS Website | Contact Us</title>
+      </Head>
       <div className={styles["text"]}>
         <h1>Contact Us</h1>
         <h2>email: miami.ycs@gmail.com</h2>

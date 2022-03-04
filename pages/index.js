@@ -3,6 +3,7 @@ import GrassSection from "../components/index/GrassSection.jsx";
 import Modal from "../components/shared/Modal.jsx";
 import Link from "next/link";
 import Button from "../components/shared/Button.jsx";
+import Head from "next/head";
 
 import { useEffect, useState } from "react";
 
@@ -21,6 +22,9 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+        <title>MYCS Website | Index</title>
+      </Head>
       {showModal && (
         <Modal onClick={toggleModal}>
           <div className={styles["alert-modal"]}>
@@ -32,7 +36,10 @@ export default function Home() {
                 https://whova.com/portal/registration/mycs_202203/
               </a>
             </p>
-            <Link href="https://whova.com/portal/registration/mycs_202203/">
+            <Link
+              passHref
+              href="https://whova.com/portal/registration/mycs_202203/"
+            >
               <Button style={{ width: "200px", fontSize: "1.5em" }}>
                 Register
               </Button>

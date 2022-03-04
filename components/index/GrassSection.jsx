@@ -50,7 +50,7 @@ function GrassSection(props) {
       <ImageSlider
         slides={[
           <Image
-            height={600}
+            height={625}
             width={600}
             src={imageOne}
             alt="Image One"

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import Head from "next/head";
 
 import ScheduleItem from "../components/shared/ScheduleItem";
 
@@ -25,6 +26,9 @@ function Schedule(props) {
 
   return (
     <section className={styles["schedule-section"]}>
+      <Head>
+        <title>MYCS Website | Schedule </title>
+      </Head>
       <h1>Schedule</h1>
       <h3 className={styles["description"]}>
         This year we will be hosting a hybrid summit on Sunday, March 13th,

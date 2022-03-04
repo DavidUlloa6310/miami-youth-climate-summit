@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/dist/shared/lib/head";
 
 import Image from "next/image";
 
@@ -13,6 +14,9 @@ function TheProblem(props) {
 
   return (
     <section className={styles["problem-section"]}>
+      <Head>
+        <title>MYCS Website | Learn | The Problem</title>
+      </Head>
       <h1 className={styles["title"]}>The Problem</h1>
       <div className={styles["columns"]}>
         <div className={styles["column"]}>

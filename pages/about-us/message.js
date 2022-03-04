@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/dist/shared/lib/head";
 import Image from "next/image";
 
 import styles from "../../styles/about-us/message.module.css";
@@ -26,6 +27,9 @@ function Message(props) {
 
   return (
     <main>
+      <Head>
+        <title>MYCS Website | Message</title>
+      </Head>
       <section className={styles["message-section"]}>
         <div className={styles["text"]}>
           <h1>A Message From the Co-Presidents</h1>

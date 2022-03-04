@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/dist/shared/lib/head";
 
 import styles from "../../styles/learn/the-science.module.css";
 
@@ -9,6 +10,9 @@ function TheScience(props) {
 
   return (
     <main className={styles["main"]}>
+      <Head>
+        <title>MYCS Website | Learn | The Science </title>
+      </Head>
       <h1 className={styles["title"]}>The Science</h1>
       <div className={styles["columns"]}>
         <div className={styles["column"]}>

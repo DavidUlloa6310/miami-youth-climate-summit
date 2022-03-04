@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/dist/client/image";
+import Head from "next/head";
 
 import styles from "../styles/sponsors/sponsors.module.css";
 
@@ -10,6 +11,9 @@ function Sponsors(props) {
 
   return (
     <section className={styles["sponsors-section"]}>
+      <Head>
+        <title>MYCS Website | Sponsors</title>
+      </Head>
       <h1>Here are our 2022 Sponsors!</h1>
 
       <h2>Our Stand For Ocean Sponsors</h2>

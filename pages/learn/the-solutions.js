@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Head from "next/head";
 
 import Cloud from "../../components/shared/Cloud";
 
@@ -11,6 +12,9 @@ function TheSolution(props) {
 
   return (
     <section className={styles["solution-section"]}>
+      <Head>
+        <title>MYCS Website | Learn | The Solution</title>
+      </Head>
       <h1 className={styles["title"]}>The Solutions</h1>
       <div className={styles["text-box"]}>
         <div>
