@@ -46,7 +46,7 @@ function Sponsors(props) {
             src={require("../images/sponsors/cleo.png")}
             alt="CLEO Institute"
             height={300}
-            width={300}
+            width={600}
             layout="responsive"
           ></Image>
         </div>
@@ -90,6 +90,31 @@ function Sponsors(props) {
           <Image
             src={require("../images/sponsors/Caplow+Manzano+Logo.png")}
             alt="Caplow Manzano"
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/waterlust.png")}
+            alt="Waterlust"
+            layout="responsive"
+          ></Image>
+        </div>
+      </div>
+
+      <h2>Our Educational Grant Sponsors</h2>
+      <div className={styles["sponsors-grid"]}>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/Dream in Green.png")}
+            alt="Dream in Green"
+            layout="responsive"
+          ></Image>
+        </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/GSC.png")}
+            alt="GSC"
             layout="responsive"
           ></Image>
         </div>
