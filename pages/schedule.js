@@ -22,6 +22,20 @@ import styles from "../styles/schedule/schedule.module.css";
 function Schedule(props) {
   useEffect(() => {
     document.getElementById("body").style.backgroundColor = "#0000";
+
+    const script = document.createElement("script");
+    script.src =
+      "https://whova.com/static/frontend/xems/js/embed/embedagenda.js?eid=mycs_202203&host=https://whova.com";
+    script.type = "text/javascript";
+    script.id = "embeded-agenda-script";
+
+    script.defer = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
@@ -34,11 +48,6 @@ function Schedule(props) {
         <div title="Whova event and conference app" id="whova-agendawidget">
           <p id="whova-loading">Loading...</p>
         </div>
-        <script
-          src="https://whova.com/static/frontend/xems/js/embed/embedagenda.js?eid=mycs_202203&host=https://whova.com"
-          type="text/javascript"
-          id="embeded-agenda-script"
-        ></script>
         <div id="whova-wrap">
           Powered By
           <a
