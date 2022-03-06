@@ -6,7 +6,7 @@
   min-height: 100vh;
   text-align: center;
 
-  background-image: url("../../images/schedule/desert.svg");
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
 }
