@@ -54,6 +54,15 @@ function Sponsors(props) {
             layout="responsive"
           ></Image>
         </div>
+        <div className={styles["image-div"]}>
+          <Image
+            src={require("../images/sponsors/palmer trinity.png")}
+            alt="Palmer Trinity"
+            height={300}
+            width={300}
+            layout="responsive"
+          ></Image>
+        </div>
       </div>
 
       <h2>Our Stand For Nature Sponsors</h2>
