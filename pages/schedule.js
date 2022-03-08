@@ -44,6 +44,10 @@ function Schedule(props) {
         <title>MYCS Website | Schedule </title>
       </Head>
       <h1>Schedule</h1>
+      <h2 style={{ fontWeight: "300", fontSize: "1.5rem" }}>
+        The event will take place on Sunday, March 13, 9 - 4 PM at Gulliver Prep
+        | Upper School Campus 6575 N Kendall Dr, Pinecrest, FL 33156.
+      </h2>
       <div>
         <div title="Whova event and conference app" id="whova-agendawidget">
           <p id="whova-loading">Loading...</p>

@@ -19,6 +19,10 @@ function SkySection(props) {
           />
         </div>
         <h2 style={{ textAlign: "center" }}>{"We're in this together"}</h2>
+        <h3 style={{ textAlign: "center" }}>
+          Sunday, March 13, 9 - 4 PM Gulliver Prep | Upper School Campus 6575 N
+          Kendall Dr, Pinecrest, FL 33156
+        </h3>
       </div>
 
       <div
